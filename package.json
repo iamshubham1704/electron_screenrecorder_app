@@ -1,0 +1,40 @@
+{
+  "name": "electron-screen-recorder",
+  "productName": "Electron Screen Recorder",
+  "version": "1.0.0",
+  "description": "A powerful screen recording application built with Electron",
+  "main": "src/index.js",
+  "homepage": "https://github.com/iamshubham1704/electron-screen-recorder",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "build": "npm run make",
+    "build-web": "node scripts/build-web.js",
+    "serve-web": "node scripts/serve-web.js",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "iamshubham1704",
+    "email": "sstech514@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.8.3",
+    "@electron-forge/maker-deb": "^7.9.0",
+    "@electron-forge/maker-rpm": "^7.9.0",
+    "@electron-forge/maker-squirrel": "^7.9.0",
+    "@electron-forge/maker-zip": "^7.9.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.9.0",
+    "@electron-forge/plugin-fuses": "^7.9.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "38.2.1",
+    "fs-extra": "^11.2.0",
+    "http-server": "^14.1.1"
+  }
+}
